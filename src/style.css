@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gameBoard {
+    display: inline-grid;
+    margin-top: 20px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.square.opened {
+    background-color: #fff;
+}
+
+.square.flagged {
+    background-color: red;
+    color: white;
+}
